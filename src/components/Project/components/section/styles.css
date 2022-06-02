@@ -1,0 +1,9 @@
+.section{
+    width: 400px;
+    height: 70vh;
+    margin-right: 2vw;
+    flex-shrink: 0;
+    overflow-y: scroll;
+    background-color: blue;
+    border-radius: 15px;
+}

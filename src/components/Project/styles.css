@@ -1,0 +1,11 @@
+main{
+    width: 88%;
+    margin-left: 10vw;
+} 
+
+main>div{
+    display: flex;
+    flex-shrink: 0;
+    justify-content: flex-start;
+    overflow-x: scroll;
+}
