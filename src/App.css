@@ -1,8 +1,23 @@
-html{
-  background-color: rgb(46, 46, 46);
+:root {
+  --global-dark-color: rgb(19, 19, 19);
+  --global-medium-color: rgb(31, 31, 31);
+  --global-light-color: rgb(43, 42, 42);
+
+  --global-font-family: Poppins, sans-serif;
+  --global-font-size-title: 2em;
+  --global-font-size-subtitle: 1.5em;
+  --global-font-size-text: 0.85em;
+
+  --global-font-weight-title: 700;
+  --global-font-weight-subtitle: 600;
+  --global-font-weight-text: 400;
 }
 
-.content{
+html {
+  background-color: var(--global-dark-color);
+}
+
+.content {
   display: flex;
   flex-shrink: 0;
 }

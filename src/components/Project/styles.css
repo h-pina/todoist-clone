@@ -1,11 +1,34 @@
-main{
-    width: 88%;
-    margin-left: 10vw;
-} 
+main {
+  width: 97%;
+  margin-left: 2vw;
+  transition: width 0.2s;
+}
 
-main>div{
-    display: flex;
-    flex-shrink: 0;
-    justify-content: flex-start;
-    overflow-x: scroll;
+.sidebar-on {
+  width: 77%;
+}
+
+main > h1 {
+  color: white;
+}
+
+main > div {
+  display: flex;
+  height: 80vh;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  overflow-x: hidden;
+}
+
+main > div:hover {
+  overflow-x: scroll;
+}
+
+main > div::-webkit-scrollbar {
+  height: 8px;
+}
+
+main > div::-webkit-scrollbar-thumb {
+  border-radius: 15px;
+  background-color: rgb(102, 102, 102);
 }

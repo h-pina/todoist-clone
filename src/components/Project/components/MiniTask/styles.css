@@ -1,6 +1,42 @@
-.card{
-    background-color: aqua;
-    margin-left: 10px;
-    margin-right: 10px;
-    border-radius: 15px;
+.card {
+  background-color: var(--global-light-color);
+  height: 45px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 1px rgb(66, 66, 66) solid;
+  display: flex;
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  margin-top: 0.85em;
+  background-color: rgba(19, 19, 19, 0.103);
+  width: 1.5em;
+  height: 1.5em;
+  border: 0.15em rgb(102, 102, 102) solid;
+  border-radius: 15px;
+}
+
+.card-text-content {
+  width: 80%;
+  margin-top: 3px;
+  margin-left: 5px;
+}
+
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+  font-family: var(--global-font-family);
+  font-size: var(--global-font-size-text);
+  font-weight: var(--global-font-weight-text);
+  color: rgb(190, 190, 190);
+}
+
+h3 {
+  font-size: calc(var(--global-font-size-text) - 0.2em);
+  color: rgb(150, 150, 150);
 }
