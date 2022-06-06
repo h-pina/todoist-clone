@@ -12,6 +12,11 @@ const ProjectWinddow = (props) => {
           <SectionCard />
           <SectionCard />
           <SectionCard />
+          <SectionCard />
+          <SectionCard />
+          <SectionCard />
+          <SectionCard />
+          <SectionCard />
         </div>
       </main>
     </>
