@@ -1,4 +1,23 @@
 header {
   height: 8vh;
+  display: flex;
+  align-items: center;
   background-color: var(--global-light-color);
+}
+
+header input{
+  border: 0;
+  border-radius: 12px;
+  margin-left: 20px;
+  height: 15px;
+  padding-left: 3px;
+  background-color: rgb(190, 190, 190);
+}
+
+
+header button{
+  border: 0;
+  margin-left: 20px;
+  background:none;
+  cursor: pointer
 }

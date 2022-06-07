@@ -6,6 +6,12 @@
   overflow-y: hidden;
 }
 
+.section-container>h2{
+  color: white;
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
 .section::-webkit-scrollbar {
   width: 8px;
 }
