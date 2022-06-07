@@ -13,6 +13,7 @@ import { useState } from "react";
 //Create Header Menu --> Searchbar & Sandwitch
 //Create Sidebar menu
 //Adding some random todo thinks just to test some stuff out
+//Looking kinda sus
 
 function App() {
   const [sideBarShow, setSideBarSHow] = useState(false);
